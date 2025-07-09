@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #343a45;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+/* 🌑 DARK MODE EXTENSION */
+:root {
+  --dark-bg: #0b0c10;
+  --dark-bg-mid: #0a0b0c;
+  --dark-text: #f7f9f9;
+  --dark-accent: #9255c8;
+}
+
+/* 🔁 Animated Gradient Dark Background */
+body {
+  background: linear-gradient(-45deg, var(--dark-bg), var(--dark-bg-mid), #0b0c10);
+  background-size: 400% 400%;
+  animation: darkGradient 20s ease infinite;
+  color: var(--dark-text);
+  margin: 0;
+  padding: 0;
+}
+
+/* ✨ Gradient animation */
+@keyframes darkGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Content color override */
+.App,
+.App-header,
+footer,
+.navbar,
+p,
+h1, h2, h3, h4, h5, h6 {
+  color: var(--dark-text) !important;
+  background: transparent !important;
+}
+
+/* Link and accent color */
+.App-link,
+a {
+  color: var(--dark-accent) !important;
+}
+
+a:hover {
+  text-shadow: 0 0 5px var(--dark-accent);
+}
