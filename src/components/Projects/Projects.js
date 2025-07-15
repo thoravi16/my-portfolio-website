@@ -98,7 +98,7 @@ It features an intuitive UI for logging, categorizing, and managing expenses eff
               title="Employee Salary Prediction Using ML"
               description="This project predicts employee salaries based on features like years at the company and job rating using machine learning. It includes a Streamlit web app powered by a trained linear regression model for real-time salary prediction."
               ghLink="https://github.com/thoravi16/salary-prediction-using-ml"
-              // demoLink=""      <--------Please include a demo link here 
+              demoLink="https://salarypredictml.streamlit.app/"
             />
           </Col>
         </Row>
