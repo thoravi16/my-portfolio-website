@@ -8,6 +8,7 @@ import aicalcpro from "../../Assets/Projects/aicalcpro.png";
 import weatherwiki from "../../Assets/Projects/weatherwiki.png";
 import motiondetection from "../../Assets/Projects/motiondetection.avif";
 import diseaseprediction from "../../Assets/Projects/diseaseprediction.png";
+import esp from "../../Assets/Projects/salarypredict.png";
 
 function Projects() {
   return (
@@ -86,6 +87,17 @@ It features an intuitive UI for logging, categorizing, and managing expenses eff
               title="Real-Time Location Tracking"
               description="A web-based real-time location sharing app built with Node.js, Express, Socket.IO, and EJS. Allows users to share and view live locations on a map with instant updates using WebSocket communication."
               ghLink="https://github.com/thoravi16/RealTime-Tracking"
+              // demoLink=""      <--------Please include a demo link here 
+            />
+          </Col>
+
+           <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={esp}
+              isBlog={false}
+              title="Employee Salary Prediction Using ML"
+              description="This project predicts employee salaries based on features like years at the company and job rating using machine learning. It includes a Streamlit web app powered by a trained linear regression model for real-time salary prediction."
+              ghLink="https://github.com/thoravi16/salary-prediction-using-ml"
               // demoLink=""      <--------Please include a demo link here 
             />
           </Col>
