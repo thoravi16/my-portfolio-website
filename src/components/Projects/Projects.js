@@ -22,6 +22,18 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+            <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={rtls}
+              isBlog={false}
+              title="Advanced Drone Detection System"
+              description="This project is a Real-Time Drone Detection and Restricted Area Alert System developed using YOLOv5, OpenCV, and Python. The primary objective is to monitor sensitive zones and alert security systems if any unauthorized drone activity is detected within a predefined restricted area."
+              ghLink="https://github.com/thoravi16/advance-drone-detection-system"
+              // demoLink=""      <--------Please include a demo link here 
+            />
+          </Col>
+                
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={weatherwiki}
