@@ -9,6 +9,7 @@ import weatherwiki from "../../Assets/Projects/weatherwiki.png";
 import motiondetection from "../../Assets/Projects/motiondetection.avif";
 import diseaseprediction from "../../Assets/Projects/diseaseprediction.png";
 import esp from "../../Assets/Projects/salarypredict.png";
+import drone from "../../Assets/Projects/drone.jpg";
 
 function Projects() {
   return (
