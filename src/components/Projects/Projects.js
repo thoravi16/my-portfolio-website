@@ -25,7 +25,7 @@ function Projects() {
 
             <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={rtls}
+              imgPath={drone}
               isBlog={false}
               title="Advanced Drone Detection System"
               description="This project is a Real-Time Drone Detection and Restricted Area Alert System developed using YOLOv5, OpenCV, and Python. The primary objective is to monitor sensitive zones and alert security systems if any unauthorized drone activity is detected within a predefined restricted area."
