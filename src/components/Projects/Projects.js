@@ -10,6 +10,7 @@ import motiondetection from "../../Assets/Projects/motiondetection.avif";
 import diseaseprediction from "../../Assets/Projects/diseaseprediction.png";
 import esp from "../../Assets/Projects/salarypredict.png";
 import drone from "../../Assets/Projects/drone.jpg";
+import chatbot from "../../Assets/Projects/chatbot.jpg";
 
 function Projects() {
   return (
@@ -32,6 +33,17 @@ function Projects() {
               description="This project is a Real-Time Drone Detection and Restricted Area Alert System developed using YOLOv5, OpenCV, and Python. The primary objective is to monitor sensitive zones and alert security systems if any unauthorized drone activity is detected within a predefined restricted area."
               ghLink="https://github.com/thoravi16/advance-drone-detection-system"
               // demoLink=""      <--------Please include a demo link here 
+            />
+          </Col>
+
+            <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chatbot}
+              isBlog={false}
+              title="Avika Chatbot"
+              description="Avika Chatbot is an AI-powered conversational assistant built to deliver smooth, natural, and context-aware interactions. It is designed for accessibility — running on Groq’s LLaMA 3 model so that anyone can experience advanced AI without paying OpenAI usage fees."
+              ghLink="https://github.com/thoravi16/avika-chatbot"
+              demoLink="https://avika-chatbot.streamlit.app/"
             />
           </Col>
                 
