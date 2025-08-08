@@ -10,7 +10,7 @@ import motiondetection from "../../Assets/Projects/motiondetection.avif";
 import diseaseprediction from "../../Assets/Projects/diseaseprediction.png";
 import esp from "../../Assets/Projects/salarypredict.png";
 import drone from "../../Assets/Projects/drone.jpg";
-import chatbot from "../../Assets/Projects/chatbot.jpg";
+import chatbot from "../../Assets/Projects/chatbot.png";
 
 function Projects() {
   return (
